@@ -1,5 +1,6 @@
 # android-preferences-presets
 
+Quick and Dirty Guide
 =====
 multiple preferenes presets for application
 
@@ -23,3 +24,11 @@ if (prefs instanceof SharedPreferencesPresets.SharedPreferencesWrapper)
 // restore active before preset (returns default
 SharedPreference prefs = presets.restoreActivePreset()
 ```
+
+Settings Activity
+=====
+to use presets with Settings Activity - use PresetsPreferenceActivity as superclass instead stock PreferenceActivity
+
+Contacts
+====
+<a href="mailto:info@whs.su">info@whs.su</a>
